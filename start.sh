@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/bash
 
 echo "Starting PHP-FPM..."
 /usr/sbin/php-fpm7.4 --fpm-config /home/container/php-fpm/php-fpm.conf --daemonize
