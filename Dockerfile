@@ -10,5 +10,6 @@ ENV HOME /home/container
 WORKDIR /home/container
 
 COPY ./entrypoint.sh /entrypoint.sh
+RUN chmod +x /home/container/start.sh
 
 CMD ["/bin/ash", "/entrypoint.sh"]
